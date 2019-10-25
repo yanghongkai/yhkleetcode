@@ -1,6 +1,10 @@
 
 # 十大排序算法 sort algorithm https://www.jianshu.com/p/a1e97094f61b
 
+# 什么是计数排序？ https://yq.aliyun.com/articles/655110 云栖社区
+
+# 十大经典排序算法 https://www.runoob.com/w3cnote/radix-sort.html
+
 # 快排
 # 基线条件: len(arr)<2: return arr
 # 问题分解: 所有小于pivot的数组，pivot, 所有大于pivot的数组
@@ -179,6 +183,87 @@ def merge(arr1, arr2):
     return res
 
 
+def counting_sort(nums, max_value):
+    """
+    out-place
+    计数排序 可以使用nums的原始空间
+    O(n+k)
+    核心将输入的数据值转化为存储在额外开辟的数据空间中。
+    线性时间复杂度的排序，要求输入的数据必须是有确定范围的整数
+    :param nums:
+    :return:
+    """
+    bucket = [0] * (max_value + 1)
+    sorted_idx = 0
+    for item in nums:
+        bucket[item] += 1
+    for i in range(len(bucket)):
+        while bucket[i] > 0:
+            nums[sorted_idx] = i
+            sorted_idx += 1
+            bucket[i] -= 1
+    return nums
+
+
+def radix_sort(nums, radix=10):
+    """
+    out-place
+    基数排序 可以使用nums的原始空间
+    先按低位进行排序(个位)，再按高位进行排序(十位)
+    计算出需要几个维度(需要知道是什么进制)
+    :param nums:
+    :return:
+    """
+    import math
+    # 注意100 bucket_num =2, 但是需要个、十、百三次排序
+    bucket_num = int(math.ceil(math.log(max(nums), radix)))
+    print("bucket_num:", bucket_num)
+    for i in range(1, bucket_num+1+1):
+        # i=1 表示第一轮个位 i=2 表示第2轮十位，以此类推
+        # 获取要析取的数
+        buckets = [[] for i in range(radix)]
+        for val in nums:
+            idx = int(val % (radix**i) / (radix ** (i-1)))
+            buckets[idx].append(val)
+        sorted_idx = 0
+        for bucket in buckets:
+            if bucket:
+                j = 0
+                while j < len(bucket):
+                    nums[sorted_idx] = bucket[j]
+                    sorted_idx += 1
+                    j += 1
+    return nums
+
+
+def bucket_sort(nums):
+    """
+    out-place
+    桶排序 https://www.jianshu.com/p/204ed43aec0c
+    元素值域的划分，也就是元素到桶的映射规则
+    桶内的排序
+    算法过程:
+    1. 根据待排序集合中最大元素和最小元素的差值范围和映射规则，确定申请的桶个数
+    2. 遍历待排序集合，将每一个元素移动到对应的桶中
+    3. 对每一个桶中元素进行排序，并移动到已排序集合中 (移动元素不再依赖原始集合，所以可将桶中元素移动回原始集合即可)
+    :param nums:
+    :return:
+    """
+    import math
+    maximum, minimum = max(nums), min(nums)
+    # 假设margin=10
+    margin = 10
+    bucket_nums = math.ceil(maximum / margin - minimum / margin + 1)
+    buckets = [[] for i in range(int(bucket_nums))]
+    for val in nums:
+        idx = val // 10 - minimum // 10
+        buckets[idx]. append(val)
+    nums.clear()
+    for bucket in buckets:
+        quick_sort(bucket, 0, len(bucket)-1)
+        nums.extend(bucket)
+    return nums
+
 
 
 arr = [3, 5, 2, 1, 4]
@@ -188,6 +273,13 @@ arr = [3, 5, 2, 1, 4]
 # print(arr)
 # print(bubble_sort(arr))
 # print(insert_sort(arr))
-print(merge_sort(arr))
+# print(merge_sort(arr))
+# print(counting_sort(arr, 10))
 
+arr = [73, 22, 93, 43, 55, 14, 28, 65, 39, 81]
+# arr = [1, 10000000]
+# arr = [1, 100]
+# print(radix_sort(arr))
+print(bucket_sort(arr))
+print(arr)
 

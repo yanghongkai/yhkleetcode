@@ -1,5 +1,6 @@
 
-# 147 对链表进行插入排序 https://leetcode-cn.com/problems/insertion-sort-list/
+# 148 排序链表 https://leetcode-cn.com/problems/sort-list/
+# 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
 
 # Definition for singly-linked list.
 class ListNode:
@@ -41,44 +42,49 @@ class List():
 
 
 class Solution:
-    def insertionSortList(self, head):
-        p = head
-
-        while hasattr(p, "next") and p.next:
-            # p前一个node
-            cur = p.next
-            # 当前节点的值大于等于前一个节点的值不需要做插入操作
-            if cur.val >= p.val:
+    def sortList(self, head):
+        """
+        使用快慢指针进行分割
+        :param head:
+        :return:
+        """
+        if not head or not head.next:
+            return head
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        mid = slow.next
+        slow.next = None
+        # head->slow, mid->fast 分割成2个子链表
+        left, right = self.sortList(head), self.sortList(mid)
+        # 合并
+        h = p = ListNode(0)
+        while left and right:
+            if left.val <= right.val:
+                p.next = left
                 p = p.next
+                left = left.next
             else:
-                # 先将后边节点接上
-                p.next = cur.next
-                # cur.value <= head.value 直接插在首部
-                if cur.val <= head.val:
-                    cur.next = head
-                    head = cur
-                else:
-                    q = head
-                    while q.next:
-                        if q.next.val >= cur.val:
-                            cur.next = q.next
-                            q.next = cur
-                            break
-                        q = q.next
-                # 插入的时候，p.next本身就自动指向了下一个节点，不需要再操作
-                # p = p.next
-        # print("head:", head)
-        return head
+                p.next = right
+                p = p.next
+                right = right.next
+        if left:
+            p.next = left
+        if right:
+            p.next = right
+        return h.next
+
+
 
 
 nums = [4, 2, 1, 3]
-root =  List(nums)
+root = List(nums)
 print(root)
 
 s = Solution()
-s.insertionSortList(root.head)
-print("root:", root)
-# 4->2->1->3
+node = s.sortList(root.head)
+print(node)
 
 
 
