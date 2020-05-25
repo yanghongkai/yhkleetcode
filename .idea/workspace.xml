@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LRU/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/edit_distance_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/edit_distance_with_ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/edit_distance_with_ops_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/length_of_lis_300.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/max_profit/max_profit_fee_714.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/max_profit/max_profit_infinity_122.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/max_profit/max_profit_k-2_121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/max_profit/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/super_egg_drop_887.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/super_egg_drop_887_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/unique_paths_with_obstacles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/permute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/Trie/Trie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/Trie/trie_208.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/generate_trees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/inorder_traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/level_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/postorder_traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/preorder_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/is_match_10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/edit_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/edit_distance.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +22,15 @@
   </component>
   <component name="ProjectId" id="1Ry4OsSmbeu1TcXGNnkYLthMtBf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -62,18 +45,6 @@
       <recent name="$PROJECT_DIR$/stack" />
       <recent name="$PROJECT_DIR$/sort" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.super_egg_drop">
     <configuration name="max_profit_cooldown_309" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -209,12 +180,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2534" y="772" width="714" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590411925652">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state x="2534" y="772" width="714" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1590411925652" />
   </component>
 </project>
