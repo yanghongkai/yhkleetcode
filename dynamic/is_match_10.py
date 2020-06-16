@@ -23,8 +23,29 @@ def is_match_1(text, pattern):
         return first_match and is_match_1(text[1:], pattern[1:])
 
 
-# 普通字符串匹配，非递归
+# 正则 动态规划
+def isMatch(text, pattern):
+    memo = dict()
 
+    def dp(i, j):
+        if (i, j) in memo:
+            return memo[(i, j)]
+        # 出界
+        if j == len(pattern):
+            return i == len(text)
+
+        first_match = i < len(text) and pattern[j] in {text[i], "."}
+        if len(pattern) - j >= 2 and pattern[j+1] == "*":
+            ans = dp(i, j+2) or first_match and dp(i+1, j)
+        else:
+            ans = first_match and dp(i+1, j+1)
+        memo[(i, j)] = ans
+        return ans
+
+    return dp(0, 0)
+
+
+# 普通字符串匹配，非递归
 def is_match_normal(s, p):
     if len(s) != len(p):
         return False
@@ -52,8 +73,32 @@ def is_match_pointer(s, p):
         return True
 
 
+class Solution:
+    def isMatch(self, text: str, pattern: str) -> bool:
+        memo = dict()
+
+        def dp(i, j):
+            if (i, j) in memo:
+                return memo[(i, j)]
+            # 出界
+            if j == len(pattern):
+                return i == len(text)
+
+            first_match = i < len(text) and pattern[j] in {text[i], "."}
+            if len(pattern) - j >= 2 and pattern[j + 1] == "*":
+                ans = dp(i, j + 2) or first_match and dp(i + 1, j)
+            else:
+                ans = first_match and dp(i + 1, j + 1)
+            memo[(i, j)] = ans
+            return ans
+
+        return dp(0, 0)
 
 
+s = "aab"
+p = "c*a*b"
+reg = Solution()
+print(reg.isMatch(s, p))
 
 
 

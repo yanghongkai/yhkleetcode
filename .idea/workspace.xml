@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic/is_match_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/KMP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/can_partition_416.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/change_518.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_common_subsequence_1143.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/max_sub_array_53.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/stone_game_877.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/erase_overlap_intervals_435.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/find_min_arrow_452.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic/is_match_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/is_match_10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,71 +57,8 @@
       <recent name="$PROJECT_DIR$/sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.super_egg_drop">
-    <configuration name="max_profit_cooldown_309" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/max_profit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/max_profit/max_profit_cooldown_309.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="max_profit_fee_714" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/max_profit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/max_profit/max_profit_fee_714.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="max_profit_k-2_121" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/max_profit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/max_profit/max_profit_k-2_121.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="super_egg_drop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.stone_game_877">
+    <configuration name="can_partition_416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/super_egg_drop_887.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/can_partition_416.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="change_518" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +87,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/max_profit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/max_profit/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/change_518.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="longest_increase_subsequence_300" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/longest_common_subsequence" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="max_sub_array_53" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/max_sub_array_53.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stone_game_877" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/stone_game_877.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.super_egg_drop" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.max_profit_k-2_121" />
-        <item itemvalue="Python.max_profit_fee_714" />
-        <item itemvalue="Python.max_profit_cooldown_309" />
+        <item itemvalue="Python.stone_game_877" />
+        <item itemvalue="Python.max_sub_array_53" />
+        <item itemvalue="Python.longest_increase_subsequence_300" />
+        <item itemvalue="Python.change_518" />
+        <item itemvalue="Python.can_partition_416" />
       </list>
     </recent_temporary>
   </component>
@@ -188,9 +199,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2534" y="772" width="714" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590411925652">
+    <state x="2558" y="684" width="666" height="819" key="#is_match_10" timestamp="1590457736728">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state x="2534" y="772" width="714" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1590411925652" />
+    <state x="2558" y="684" width="666" height="819" key="#is_match_10/67.27.3773.2133@67.27.3773.2133" timestamp="1590457736728" />
+    <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591089863120">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.2133@67.27.3773.2133" timestamp="1591089863120" />
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1592221588483">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1592221588483" />
+    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1592221588483">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1592221588483" />
+    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1592221588483">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1592221588483" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1592221588483">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1592221588483" />
+    <state x="2385" y="728" key="SettingsEditor" timestamp="1590457756861">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state x="2385" y="728" key="SettingsEditor/67.27.3773.2133@67.27.3773.2133" timestamp="1590457756861" />
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592220912927">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1592220912927" />
   </component>
 </project>
