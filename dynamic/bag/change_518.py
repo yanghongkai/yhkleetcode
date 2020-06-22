@@ -12,6 +12,7 @@ class Solution:
         # dp[0][..] = 0 dp[..][0] = 1
         for item in dp:
             item[0] = 1
+        # print(dp)
         for i in range(1, len(coins)+1):
             for j in range(1, amount+1):
                 # 硬币放不进来
@@ -24,8 +25,10 @@ class Solution:
         return dp[len(coins)][amount]
 
 
-amount = 5
-coins = [1, 2, 5]
+# amount = 5
+# coins = [1, 2, 5]
+coins = [1, 5, 10, 25]
+amount = 900750
 s = Solution()
 print(s.change(amount, coins))
 
