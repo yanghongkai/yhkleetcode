@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backtrack/permute_46.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/solv_N_queens_51.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/subsets_78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/bag/coin_change_322.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/bag/ways_to_change_inter_08_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/fib_509.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/find_length_718.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/palindrome/longest_palindrome_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/palindrome/valid_palindrome_680.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/rob/rob_198.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/rob/rob_213.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/sub_array_sum_560.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/search_704.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/search_range_34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/combination_sum3_216.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/combination_sum_39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/generate_parenthesis_22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/permutation_jian_38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/permute_unique_47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/solve_sudoku_37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/subsets_with_dup_90.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/bag/max_value_47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/find_numberof_LIS_673.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/can_partition_416.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/bag/can_partition_416.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/change_518.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/bag/change_518.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/combine_77.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtrack/combine_77.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/longest_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/palindrome/longest_palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/longest_palindrome_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/palindrome/longest_palindrome_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/super_egg_drop_887.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/egg/super_egg_drop_887.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/super_egg_drop_887_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/egg/super_egg_drop_887_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,50 +59,8 @@
       <recent name="$PROJECT_DIR$/sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.subsets_78">
-    <configuration name="coin_change_322" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic/bag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/bag/coin_change_322.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fib_509" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/fib_509.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="permute_46" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.combination_sum3_216">
+    <configuration name="combination_sum2_40" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/permute_46.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum2_40.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solv_N_queens_51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="combination_sum3_216" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +93,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/solv_N_queens_51.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum3_216.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="combination_sum_39" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum_39.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,13 +144,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="subsets_with_dup_90" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/subsets_with_dup_90.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.combination_sum3_216" />
+        <item itemvalue="Python.combination_sum_39" />
+        <item itemvalue="Python.combination_sum2_40" />
+        <item itemvalue="Python.subsets_with_dup_90" />
         <item itemvalue="Python.subsets_78" />
-        <item itemvalue="Python.coin_change_322" />
-        <item itemvalue="Python.fib_509" />
-        <item itemvalue="Python.solv_N_queens_51" />
-        <item itemvalue="Python.permute_46" />
       </list>
     </recent_temporary>
   </component>
@@ -219,29 +209,33 @@
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.2133@67.27.3773.2133" timestamp="1591089863120" />
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1592808015251">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1592979377337">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1592808015251" />
-    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1592808015248">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
+    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1592979377337">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1592808015248" />
-    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1592808015247">
+    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
+    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1592979377337">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1592808015247" />
-    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1592808015250">
+    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1592979377337">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1592808015250" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
     <state x="2385" y="728" key="SettingsEditor" timestamp="1590457756861">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2385" y="728" key="SettingsEditor/67.27.3773.2133@67.27.3773.2133" timestamp="1590457756861" />
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592807745809">
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592979076619">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1592807745809" />
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1592979076619" />
+    <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" timestamp="1592815324821">
+      <screen x="67" y="27" width="3773" height="2133" />
+    </state>
+    <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup/67.27.3773.2133@67.27.3773.2133" timestamp="1592815324821" />
   </component>
 </project>

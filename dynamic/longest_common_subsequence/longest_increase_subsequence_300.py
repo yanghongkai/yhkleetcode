@@ -27,6 +27,8 @@ class Solution1:
 
 
 nums = [10, 9, 2, 5, 3, 7, 101, 18]
+
+nums = [1, 2, 4, 3, 5, 4, 7, 2]
 s = Solution1()
 print(s.lengthOfLIS(nums))
 
