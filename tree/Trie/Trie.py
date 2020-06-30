@@ -35,7 +35,7 @@ class Trie:
 
     def search(self, key):
         """
-        search key in the trie
+        2_search key in the trie
         returns true if key presents in trie, else false
         :param key:
         :return:

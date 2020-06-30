@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backtrack/combination_sum3_216.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/combination_sum_39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/generate_parenthesis_22.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/permutation_jian_38.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/permute_unique_47.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/solve_sudoku_37.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/subsets_with_dup_90.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/bag/max_value_47.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/find_numberof_LIS_673.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_search/find_duplicate_287.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_search/find_magic_index_inter_08_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_search/find_peak_element_162.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_search/find_right_interval_436.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_search/next_greatest_letter_744.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/permutation_inter_08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/subsets_inter_0804.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/divide_conquer/find_kth_largest_215.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextgreater/max_sliding_window_239.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextgreater/next_greater_element_496.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextgreater/next_greater_elements_503.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/has_cycle_141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/fib_inter_10_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/multiply_08_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/my_pow_inter_16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtrack/combine_77.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtrack/combine_77.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic/longest_common_subsequence/longest_increase_subsequence_300.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/search_704.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_search/search_704.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/search_range_34.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_search/search_range_34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/quick_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quick_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/Trie/Trie.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/Trie/Trie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +67,8 @@
       <recent name="$PROJECT_DIR$/sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.combination_sum3_216">
-    <configuration name="combination_sum2_40" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.find_kth_largest_215">
+    <configuration name="fib_inter_10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum2_40.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/fib_inter_10_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="combination_sum3_216" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_kth_largest_215" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/divide_conquer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum3_216.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/divide_conquer/find_kth_largest_215.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="combination_sum_39" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_magic_index_inter_08_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/combination_sum_39.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_search/find_magic_index_inter_08_03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_78" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiply_08_05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/subsets_78.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/multiply_08_05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets_with_dup_90" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="my_pow_inter_16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack/subsets_with_dup_90.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/my_pow_inter_16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.combination_sum3_216" />
-        <item itemvalue="Python.combination_sum_39" />
-        <item itemvalue="Python.combination_sum2_40" />
-        <item itemvalue="Python.subsets_with_dup_90" />
-        <item itemvalue="Python.subsets_78" />
+        <item itemvalue="Python.find_kth_largest_215" />
+        <item itemvalue="Python.my_pow_inter_16" />
+        <item itemvalue="Python.fib_inter_10_1" />
+        <item itemvalue="Python.multiply_08_05" />
+        <item itemvalue="Python.find_magic_index_inter_08_03" />
       </list>
     </recent_temporary>
   </component>
@@ -209,30 +217,30 @@
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.2133@67.27.3773.2133" timestamp="1591089863120" />
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1592979377337">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1593485356942">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
-    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1592979377337">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1593485356942" />
+    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1593485356942">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
-    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1592979377337">
+    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1593485356942" />
+    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1593485356942">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
-    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1592979377337">
+    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1593485356942" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1593485356942">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1592979377337" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1593485356942" />
     <state x="2385" y="728" key="SettingsEditor" timestamp="1590457756861">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2385" y="728" key="SettingsEditor/67.27.3773.2133@67.27.3773.2133" timestamp="1590457756861" />
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592979076619">
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593484416877">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1592979076619" />
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1593484416877" />
     <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" timestamp="1592815324821">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>

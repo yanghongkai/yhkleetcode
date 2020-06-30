@@ -57,6 +57,8 @@ def find_smallest(arr):
 
 # =======================================================
 
+# 快速排序 https://blog.nekolr.com/2019/03/20/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/
+
 # 快速排序
 def quick_sort(arr, left, right):
     """
@@ -127,8 +129,8 @@ def bubble_sort(arr):
     :param arr:
     :return:
     """
-    for i in range(1, len(arr)):
-        for j in range(0, len(arr)-i):
+    for i in range(0, len(arr)-1):
+        for j in range(0, len(arr)-i-1):
             if arr[j] > arr[j+1]:
                 arr[j+1], arr[j] = arr[j], arr[j+1]
     return arr
