@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pointer/find_closest_inter_17_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/num_subarrays_with_sum_930.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/partition_labels_763.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/remove_nth_from_end_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/slide_window/max_score_1423.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/slide_window/shortest_seq_inter_17_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prefix_sum/subarray_sum_560.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/circular_array_loop_457.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/find_longest_word_524.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/min_subarray_len_209.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/remove_duplicates_26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/remove_duplicates_80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer/smallest_difference_inter_16_06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +54,8 @@
       <recent name="$PROJECT_DIR$/sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reverse_string_344">
-    <configuration name="find_closest_inter_17_11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.remove_duplicates_26">
+    <configuration name="find_longest_word_524" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/find_closest_inter_17_11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/find_longest_word_524.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="num_subarrays_with_sum_930" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="min_subarray_len_209" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/num_subarrays_with_sum_930.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/min_subarray_len_209.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_nth_from_end_19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="remove_duplicates_26" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/remove_nth_from_end_19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/remove_duplicates_26.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_string_344" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="remove_duplicates_80" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/reverse_string_344.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/remove_duplicates_80.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subarray_sum_560" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="smallest_difference_inter_16_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prefix_sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pointer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prefix_sum/subarray_sum_560.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/smallest_difference_inter_16_06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reverse_string_344" />
-        <item itemvalue="Python.num_subarrays_with_sum_930" />
-        <item itemvalue="Python.subarray_sum_560" />
-        <item itemvalue="Python.remove_nth_from_end_19" />
-        <item itemvalue="Python.find_closest_inter_17_11" />
+        <item itemvalue="Python.remove_duplicates_26" />
+        <item itemvalue="Python.remove_duplicates_80" />
+        <item itemvalue="Python.find_longest_word_524" />
+        <item itemvalue="Python.smallest_difference_inter_16_06" />
+        <item itemvalue="Python.min_subarray_len_209" />
       </list>
     </recent_temporary>
   </component>
@@ -205,30 +204,30 @@
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.2133@67.27.3773.2133" timestamp="1591089863120" />
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1593669162565">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1593690245455">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1593669162565" />
-    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1593669162565">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
+    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1593690245455">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1593669162565" />
-    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1593669162565">
+    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
+    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1593690245455">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1593669162565" />
-    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1593669162565">
+    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1593690245455">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1593669162565" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
     <state x="2385" y="728" key="SettingsEditor" timestamp="1590457756861">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2385" y="728" key="SettingsEditor/67.27.3773.2133@67.27.3773.2133" timestamp="1590457756861" />
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593658795091">
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593690066374">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1593658795091" />
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1593690066374" />
     <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" timestamp="1592815324821">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
