@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9678f936-bca6-48e1-be4f-d2611d681d6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pointer/circular_array_loop_457.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/find_longest_word_524.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/min_subarray_len_209.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/remove_duplicates_26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/remove_duplicates_80.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pointer/smallest_difference_inter_16_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interval/interval_intersection_986.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interval/merge_56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/BST/insert_into_BST_701.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/BST/is_valid_BST_98.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/is_same_tree_100.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/erase_overlap_intervals_435.py" beforeDir="false" afterPath="$PROJECT_DIR$/interval/erase_overlap_intervals_435.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interval" />
       <recent name="$PROJECT_DIR$/pointer/slide_window" />
       <recent name="$PROJECT_DIR$/dynamic/bag" />
       <recent name="$PROJECT_DIR$/dynamic/egg" />
       <recent name="$PROJECT_DIR$/dynamic/palindrome" />
-      <recent name="$PROJECT_DIR$/dynamic/max_profit" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dynamic" />
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.remove_duplicates_26">
+  <component name="RunManager" selected="Python.interval_intersection_986">
     <configuration name="find_longest_word_524" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_subarray_len_209" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="interval_intersection_986" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +84,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pointer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interval" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/min_subarray_len_209.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interval/interval_intersection_986.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_56" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interval" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interval/merge_56.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,34 +160,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smallest_difference_inter_16_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pointer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pointer/smallest_difference_inter_16_06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.interval_intersection_986" />
+        <item itemvalue="Python.merge_56" />
         <item itemvalue="Python.remove_duplicates_26" />
         <item itemvalue="Python.remove_duplicates_80" />
         <item itemvalue="Python.find_longest_word_524" />
-        <item itemvalue="Python.smallest_difference_inter_16_06" />
-        <item itemvalue="Python.min_subarray_len_209" />
       </list>
     </recent_temporary>
   </component>
@@ -204,30 +204,30 @@
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2674" y="851" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.2133@67.27.3773.2133" timestamp="1591089863120" />
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1593690245455">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom" timestamp="1593746238965">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
-    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1593690245455">
+    <state width="1864" height="634" key="GridCell.Tab.0.bottom/67.27.3773.2133@67.27.3773.2133" timestamp="1593746238965" />
+    <state width="1864" height="634" key="GridCell.Tab.0.center" timestamp="1593746238964">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
-    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1593690245455">
+    <state width="1864" height="634" key="GridCell.Tab.0.center/67.27.3773.2133@67.27.3773.2133" timestamp="1593746238964" />
+    <state width="1864" height="634" key="GridCell.Tab.0.left" timestamp="1593746238964">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
-    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1593690245455">
+    <state width="1864" height="634" key="GridCell.Tab.0.left/67.27.3773.2133@67.27.3773.2133" timestamp="1593746238964" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right" timestamp="1593746238964">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1593690245455" />
+    <state width="1864" height="634" key="GridCell.Tab.0.right/67.27.3773.2133@67.27.3773.2133" timestamp="1593746238964" />
     <state x="2385" y="728" key="SettingsEditor" timestamp="1590457756861">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
     <state x="2385" y="728" key="SettingsEditor/67.27.3773.2133@67.27.3773.2133" timestamp="1590457756861" />
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593690066374">
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594004245171">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
-    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1593690066374" />
+    <state x="2534" y="772" width="704" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3773.2133@67.27.3773.2133" timestamp="1594004245171" />
     <state x="2559" y="527" width="672" height="678" key="search.everywhere.popup" timestamp="1592815324821">
       <screen x="67" y="27" width="3773" height="2133" />
     </state>
